@@ -2,7 +2,7 @@ import ChartComponent from "./ChartComponent"; //import ChartComponent
 
 const LineChart = ({ data }) => { //define line chart data structure
     const lineChartData = {
-        lables: data.months, //months x-axis label
+        labels: data.months, //months x-axis label
         datasets: [
             {
                 label: 'Monthly Profits', //dataset label
